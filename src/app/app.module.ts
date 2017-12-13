@@ -1,10 +1,9 @@
+import { ComponentsModule } from './components/components.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
 import { PlayerComponent } from './player/player.component';
-
 
 @NgModule({
   declarations: [
@@ -12,7 +11,8 @@ import { PlayerComponent } from './player/player.component';
     PlayerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'player',
+  selector: 'lmc-player',
   templateUrl: './player.component.html',
-  styleUrls: ['./player.component.css']
+  styleUrls: ['./player.component.scss']
 })
-export class PlayerComponent implements OnInit {
+export class PlayerComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  @Input() playerName: string;
+  playerTitle: string = 'Player';
 }

@@ -108,7 +108,8 @@
       { "name": "HostBinding", "message": "Use `host` in the component definition instead." },
       { "name": "HostListener", "message": "Use `host` in the component definition instead." }
     ],
-
+    "directive-selector": [true, "attribute", "lmc", "camelCase"],
+    "component-selector": [true, "element", "lmc", "kebab-case"],
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": true,
