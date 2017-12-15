@@ -8,5 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class PlayerComponent {
 
   @Input() playerName: string;
+  @Input() playerContactInfo: string;
   playerTitle: string = 'Player';
+  contactInfoDescription: string = 'Contact Info';
+
 }

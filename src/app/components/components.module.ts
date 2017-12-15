@@ -1,13 +1,13 @@
-import { PageTitleComponent } from './page-title/page-title.component';
 import { NgModule } from '@angular/core';
+import { KeyValueComponent } from './key-value/key-value.component';
 
 @NgModule({
   declarations: [
-    PageTitleComponent
+    KeyValueComponent
   ],
   imports: [],
   providers: [],
   bootstrap: [],
-  exports: [PageTitleComponent]
+  exports: [KeyValueComponent]
 })
 export class ComponentsModule { }
