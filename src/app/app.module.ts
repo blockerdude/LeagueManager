@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { PlayerComponent } from './player/player.component';
 import { TeamComponent } from './team/team.component';
+import { YearComponent } from './year/year.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerComponent,
-    TeamComponent
+    TeamComponent,
+    YearComponent
   ],
   imports: [
     BrowserModule,

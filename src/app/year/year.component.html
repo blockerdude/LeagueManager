@@ -1,0 +1,9 @@
+<lmc-page-title
+  [title]="year">
+</lmc-page-title>
+<ng-container *ngFor="let league of leagues">
+  <lmc-key-value
+    [title]="league.leagueName"
+    [value]="league.leagueDescription">
+  </lmc-key-value>
+</ng-container>
