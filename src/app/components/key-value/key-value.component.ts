@@ -1,3 +1,4 @@
+import { KeyValue } from './../../interfaces/keyValue';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -7,6 +8,5 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class KeyValueComponent {
 
-  @Input() title: string;
-  @Input() value: string;
+  @Input() keyValue: KeyValue;
 }

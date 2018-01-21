@@ -12,6 +12,7 @@ import { PageTitleComponent } from './page-title/page-title.component';
   bootstrap: [],
   exports: [
     KeyValueComponent,
-    PageTitleComponent]
+    PageTitleComponent
+  ]
 })
 export class ComponentsModule { }
