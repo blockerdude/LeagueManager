@@ -9,25 +9,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TeamStatsComponent implements OnInit {
 
-  teamStats: KeyValue[];
-
-  constructor() { }
+  @Input() teamStats: KeyValue[];
 
   ngOnInit() {
-    this.teamStats = [
-      {
-      key: 'testkey1',
-      value: 'testvalue1'
-      },
-      {
-        key: 'testkey2',
-        value: 'testvalue2'
-      },
-      {
-        key: 'testkey3',
-        value: 'testvalue3'
-      }
-    ]
   }
 
 }

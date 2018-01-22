@@ -1,3 +1,15 @@
-<p>
-  team works!
-</p>
+<lmc-team-title
+  [teamName]="teamName"
+  (teamNameUpdated)="updateTeamName($event)">
+</lmc-team-title>
+
+<lmc-team-stats
+  [teamStats]="teamStats">
+</lmc-team-stats>
+
+<lmc-player-list-header
+  [nameText]="name"
+  [totalText]="total"
+  [statOptions]="statOptions"
+  (statOption)="updateStatOption($event)">
+</lmc-player-list-header>

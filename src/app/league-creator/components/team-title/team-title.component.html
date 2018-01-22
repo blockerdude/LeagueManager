@@ -1,3 +1,7 @@
-<p>
-  team-title works!
-</p>
+<input
+  #nameInput
+  type="text"
+  ng-model-options="{ updateOn: 'blur' }"
+  ng-model="value"
+  [value]="teamName"
+  (change)="updateTeamName(nameInput.value)"/>
